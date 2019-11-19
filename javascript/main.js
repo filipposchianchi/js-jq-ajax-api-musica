@@ -2,16 +2,7 @@
 // Servendoci di handlebars stampiamo tutto a schermo. In questo momento non è importante la parte grafica.
 
 $(document).ready(function() {
-
-	 var sorgente   = $("#entry-template").html();
-	 var sorgenteDigerita = Handlebars.compile(sorgente);
-
-	// var objRef = {title: "My New Post", body: "This is my first post!"};
-	// var elValorizzato = sorgenteDigerita(objRef);
-
-	// $(".my-container").append(elValorizzato);
 	
-
 
 	$.ajax({
 		url : "https://flynn.boolean.careers/exercises/api/array/music",
